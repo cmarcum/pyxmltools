@@ -31,3 +31,6 @@ The resulting file structure typically looks like this:
 ### Media (binary) (if pressent)
 * word/media/image1.jpeg (if present — may or may not exist depending on python-docx behavior)
 (In your example output, the only binary was thumbnail.jpeg.)
+
+# [detectai.py](/code/detectai.py)
+This python script automates flagging whether docx, xlsx, or pptx files should be reviewed for further evaluation as being AI-, machine-, or script-generated. It takes an M$Office file as an input and prints any detected telltales to the terminal.
